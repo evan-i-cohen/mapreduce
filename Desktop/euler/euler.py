@@ -10,4 +10,6 @@ def exists_eulerian (molecule):
     return True; 
 def find_eulerian(molecule):
     if not exists_eulerian(molecule):
-        return None
+    	print "No eulerian path exists for that"
+     
+
